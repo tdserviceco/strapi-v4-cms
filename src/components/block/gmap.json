@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_gmaps",
+  "info": {
+    "displayName": "Gmap",
+    "icon": "map-pin",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "display": {
+      "type": "boolean",
+      "default": true
+    },
+    "key": {
+      "type": "text"
+    },
+    "lat": {
+      "type": "text"
+    },
+    "long": {
+      "type": "text"
+    },
+    "zoom": {
+      "type": "string"
+    }
+  }
+}

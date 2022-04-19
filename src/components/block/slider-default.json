@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_slider_defaults",
+  "info": {
+    "displayName": "Slider Default",
+    "icon": "school"
+  },
+  "options": {},
+  "attributes": {
+    "slide": {
+      "displayName": "Slider",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.slider"
+    }
+  }
+}

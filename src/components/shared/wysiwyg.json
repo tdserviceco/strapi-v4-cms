@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_wysiwygs",
+  "info": {
+    "displayName": "Wysiwyg",
+    "icon": "edit",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "editor": {
+      "type": "richtext"
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

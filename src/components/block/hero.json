@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_block_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "pizza-slice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "displayName": "buttons",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "fullscreen",
+        "halfscreen"
+      ],
+      "default": "halfscreen"
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

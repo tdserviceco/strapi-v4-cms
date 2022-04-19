@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_contact_uses",
+  "info": {
+    "displayName": "Contact Us",
+    "icon": "bell",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "display": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

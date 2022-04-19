@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_company_logos",
+  "info": {
+    "displayName": "Company logos",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

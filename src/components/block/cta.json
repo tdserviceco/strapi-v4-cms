@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "tachometer-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.buttons"
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

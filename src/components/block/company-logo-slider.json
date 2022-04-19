@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_company_logo_sliders",
+  "info": {
+    "displayName": "Company Logo Slider",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logotype": {
+      "displayName": "Company logos",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.company-logos"
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

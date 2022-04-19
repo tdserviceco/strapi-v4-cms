@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_block_file_shares",
+  "info": {
+    "displayName": "File Share",
+    "icon": "file-pdf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "file": {
+      "displayName": "Files",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.files"
+    },
+    "display": {
+      "type": "boolean",
+      "default": true
+    },
+    "wysiwyg": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.wysiwyg"
+    }
+  }
+}

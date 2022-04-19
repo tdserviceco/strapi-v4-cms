@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_text_editors",
+  "info": {
+    "displayName": "Text editor",
+    "icon": "text-height",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "wysiwyg": {
+      "displayName": "Wysiwyg",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.wysiwyg"
+    }
+  }
+}
