@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_block_teasers",
+  "info": {
+    "displayName": "Teaser",
+    "icon": "chalkboard-teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "amountOfTeaser": {
+      "type": "integer",
+      "min": 2,
+      "max": 6,
+      "default": 4,
+      "required": true
+    }
+  }
+}

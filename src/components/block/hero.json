@@ -13,9 +13,7 @@
       "required": false,
       "allowedTypes": [
         "images",
-        "files",
-        "videos",
-        "audios"
+        "videos"
       ]
     },
     "title": {
@@ -44,6 +42,14 @@
     },
     "color": {
       "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "image"
+      ],
+      "default": "image"
     }
   }
 }

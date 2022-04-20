@@ -51,20 +51,19 @@
       },
       "type": "dynamiczone",
       "components": [
-        "block.company-logo-slider",
         "block.contact-us",
-        "block.cta",
-        "block.file-share",
-        "block.functions",
-        "block.gmap",
-        "block.hero",
-        "block.price-table",
-        "block.quote-slider",
-        "block.slider-default",
         "block.text-editor",
-        "block.try-out",
-        "block.ledger-form"
+        "block.cta",
+        "block.hero"
       ]
+    },
+    "underConstruction": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }
