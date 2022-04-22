@@ -2,7 +2,8 @@
   "collectionName": "components_seo_metas",
   "info": {
     "displayName": "Meta",
-    "icon": "meteor"
+    "icon": "meteor",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,17 +14,19 @@
       "type": "string"
     },
     "preventIndexing": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true
     },
     "structuredData": {
       "type": "json"
     },
     "metaImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

@@ -19,6 +19,11 @@
       "max": 6,
       "default": 4,
       "required": true
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
     }
   }
 }
