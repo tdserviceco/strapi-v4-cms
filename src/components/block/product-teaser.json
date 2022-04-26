@@ -10,13 +10,9 @@
     "title": {
       "type": "string"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+    "display": {
+      "type": "boolean",
+      "default": true
     },
     "products": {
       "type": "relation",

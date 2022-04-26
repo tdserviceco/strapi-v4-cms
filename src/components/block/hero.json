@@ -40,9 +40,6 @@
       "type": "boolean",
       "default": true
     },
-    "color": {
-      "type": "string"
-    },
     "type": {
       "type": "enumeration",
       "enum": [
@@ -50,6 +47,24 @@
         "image"
       ],
       "default": "image"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "arrow_down": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrow_down_to": {
+      "type": "string"
+    },
+    "arrow_down_icon": {
+      "type": "string"
     }
   }
 }

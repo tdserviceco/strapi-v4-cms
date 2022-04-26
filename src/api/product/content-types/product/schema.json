@@ -26,6 +26,11 @@
       },
       "component": "seo.seo"
     },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-tag.product-tag"
+    },
     "title": {
       "pluginOptions": {
         "i18n": {
@@ -42,53 +47,25 @@
       },
       "type": "string"
     },
-    "price": {
+    "blocks": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
+      "type": "dynamiczone",
+      "components": [
+        "block.skateboard",
+        "block.hero"
+      ]
     },
-    "type": {
+    "editor": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "enumeration",
-      "enum": [
-        "sale",
-        "new",
-        "regular"
-      ],
-      "default": "new"
-    },
-    "product_tags": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::product-tag.product-tag",
-      "mappedBy": "product"
-    },
-    "text": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
-    },
-    "image": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "richtext"
     }
   }
 }

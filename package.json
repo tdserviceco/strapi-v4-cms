@@ -10,11 +10,11 @@
     "strapi": "strapi",
     "update-and-run": "rm -rf node_modules package-lock.json && npm i && npm run build --clean && npm run develop"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.1.8",
-    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/plugin-graphql": "^4.1.8",
     "@strapi/plugin-i18n": "4.1.8",
+    "@strapi/plugin-users-permissions": "4.1.8",
+    "@strapi/strapi": "4.1.8",
     "better-sqlite3": "7.4.6",
     "strapi-plugin-ckeditor5": "^2.1.1-rc.1",
     "strapi-plugin-menus": "^0.2.2",
